@@ -4,6 +4,7 @@ Tests based:
 
 * karma
 * mocha
+* chai
 * sinon
 
 Application based: 
