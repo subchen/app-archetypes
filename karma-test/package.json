@@ -1,0 +1,30 @@
+{
+  "name": "karma-test",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "^1.4.6",
+    "angular-ui-router": "^0.2.15",
+    "jquery": "^2.1.4",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.6",
+    "chai": "^3.3.0",
+    "karma": "^0.13.10",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.5.2",
+    "karma-junit-reporter": "^0.3.5",
+    "karma-mocha": "^0.2.0",
+    "karma-mocha-reporter": "^1.1.1",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-requirejs": "^0.2.2",
+    "mocha": "^2.3.3",
+    "phantomjs": "^1.9.18",
+    "requirejs": "^2.1.20",
+    "sinon": "^1.17.1"
+  },
+  "scripts": {
+    "test": "karma start test/config/karma.conf.js",
+    "test-jenkins": "karma start test/config/karma-jenkins.conf.js"
+  }
+}
